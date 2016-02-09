@@ -3,6 +3,8 @@
 if test $# -ne 1
 then
 	echo "[Usage] $0 <targetword>"
+	echo "example: "
+	echo "run '$0 prepare', the program will output the prepare.txt in current directory"
 	exit 1;
 fi
 
